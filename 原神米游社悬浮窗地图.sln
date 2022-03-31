@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "原神米游社悬浮窗地图", "原神米游社悬浮窗地图\原神米游社悬浮窗地图.csproj", "{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|ARM.Build.0 = Debug|ARM
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|x64.ActiveCfg = Debug|x64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|x64.Build.0 = Debug|x64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|x64.Deploy.0 = Debug|x64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|x86.ActiveCfg = Debug|x86
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|x86.Build.0 = Debug|x86
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Debug|x86.Deploy.0 = Debug|x86
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|ARM.ActiveCfg = Release|ARM
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|ARM.Build.0 = Release|ARM
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|ARM.Deploy.0 = Release|ARM
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|ARM64.Build.0 = Release|ARM64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|ARM64.Deploy.0 = Release|ARM64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|x64.ActiveCfg = Release|x64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|x64.Build.0 = Release|x64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|x64.Deploy.0 = Release|x64
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|x86.ActiveCfg = Release|x86
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|x86.Build.0 = Release|x86
+		{2676D4F4-EA8E-4CD8-AC5C-C0DFE1EC5F16}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42798291-6C9A-4894-B73E-3C33BC86070B}
+	EndGlobalSection
+EndGlobal

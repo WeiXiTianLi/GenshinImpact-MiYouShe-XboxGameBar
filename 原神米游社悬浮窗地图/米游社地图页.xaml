@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="原神米游社悬浮窗地图.米游社地图页"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:原神米游社悬浮窗地图"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="using:Microsoft.UI.Xaml.Controls" 
+    mc:Ignorable="d"
+    Background="Transparent">
+
+    <Grid Background="#00000000" >
+        <Border Margin="0 0 0 0" CornerRadius="30" BorderBrush="Transparent">
+            <controls:WebView2 x:Name="webView" Source="https://webstatic.mihoyo.com/app/ys-map-cn/index.html#/map/2" />
+        </Border>
+    </Grid>
+</Page>
