@@ -114,6 +114,13 @@ jobs:
       uses: elgohr/Github-Release-Action@v3.1
       with:
         # The name of the release to publish
-        github_token: ${{ secrets.github_token }}
-        # release: MSIX Package
-        release: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        # github_token: ${{ secrets.github_token }}
+        release: MSIX Package
+        # release: ${{ startsWith(github.ref, 'refs/tags/v') }}
+    - name: Release GitHub Actions
+      # You may pin to the exact commit or the version.
+      # uses: technote-space/release-github-actions@e4f4332b6927151a4cce38d3d3ad4a48ee0bc1bd
+      uses: technote-space/release-github-actions@v6.2.2
+      with:
+        # Secret GitHub API token to use for making API requests.
+        GITHUB_TOKEN: ${{ github.token }}
