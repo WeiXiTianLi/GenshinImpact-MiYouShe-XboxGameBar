@@ -1,6 +1,6 @@
 # GenshinImpact-MiYouShe-XboxGameBar
 原神米友社地图xbox小组件
-
+[![.NET Core Desktop](https://github.com/WeiXiTianLi/GenshinImpact-MiYouShe-XboxGameBar/actions/workflows/dotnet-desktop.yml/badge.svg?branch=master)](https://github.com/WeiXiTianLi/GenshinImpact-MiYouShe-XboxGameBar/actions/workflows/dotnet-desktop.yml)
 通过Xbox小组件实现地图置顶在原神全屏窗口之上
 
 # 效果
