@@ -108,14 +108,14 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
-    - name: Github Release
+    # - name: Github Release
       # You may pin to the exact commit or the version.
       # uses: elgohr/Github-Release-Action@ed9ebd01a0c57e64e948e7f2ff59c0159e52c204
-      uses: elgohr/Github-Release-Action@v3.1
-      with:
+     #  uses: elgohr/Github-Release-Action@v3.1
+     #  with:
         # The name of the release to publish
         # github_token: ${{ secrets.github_token }}
-        release: MSIX Package
+      #   release: MSIX Package
         # release: ${{ startsWith(github.ref, 'refs/tags/v') }}
     - name: Release GitHub Actions
       # You may pin to the exact commit or the version.
