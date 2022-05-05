@@ -123,4 +123,4 @@ jobs:
       uses: technote-space/release-github-actions@v6.2.2
       with:
         # Secret GitHub API token to use for making API requests.
-        # GITHUB_TOKEN: ${{ github.token }}
+        GITHUB_TOKEN: ${{ github.token }}
